@@ -32,8 +32,6 @@ header.startup h1 {
 
 }
 .btn {
-	/*display: flex;*/
-	
 	font-weight: 600;
   	text-transform: uppercase;
   	border-radius: 300px;
@@ -41,13 +39,13 @@ header.startup h1 {
 	background-color: #F05F44;
   	border-color: #F05F44; 
     position: relative;
-    top:220px;
+    top:250px;
 }
 
 .btn:hover{
 	background-color: #ee4b08;
   	border-color: #ee4b08;
-  	border-width: 3px;
+  	border-width: 1px;
   	cursor: pointer;
 }
 
