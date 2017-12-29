@@ -1,0 +1,53 @@
+
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+header.startup {
+	
+	background-position: center;
+	background-image: url(rawpixel-com-403498.jpg);
+	background-size: cover;
+	height: 100%;
+	display: flex;
+}
+
+.faded{
+	color: rgba(255, 255, 255, 0.7); 
+}
+hr {
+ 	 max-width: 85px;
+  	 border-width: 3px;
+ 	 border-color: #F05F44; 
+}
+
+
+header.startup h1 {
+	font-weight: bold;
+  	font-size: 2rem; 
+  	text-align: center;
+  	color:rgba(85,85,85, 0.6); 
+  	margin-top: 30px;
+
+}
+.btn {
+	display: flex;
+	margin: 0 auto;
+	font-weight: 600;
+  	text-transform: uppercase;
+  	border-radius: 300px;
+  	padding: 1rem 2rem;
+	background-color: #F05F44;
+  	border-color: #F05F44; 
+    position: relative;
+    top:220px;
+}
+
+.btn:hover{
+	background-color: #ee4b08;
+  	border-color: #ee4b08;
+  	border-width: 3px;
+  	cursor: pointer;
+}
+
